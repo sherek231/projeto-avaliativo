@@ -1,0 +1,168 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografia */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Seções */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+/* Sobre Mim */
+.foto-perfil {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Habilidades */
+#habilidades ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#habilidades ul li {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projetos */
+.projeto {
+    margin-bottom: 30px;
+}
+
+.projeto h3 {
+    color: #35424a;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #35424a;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+/* Redes Sociais */
+.redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #35424a;
+}
+
+/* Rodapé */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
