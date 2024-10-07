@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     color: #333;
 }
 
-/* Container */
+
 .container {
     width: 80%;
     margin: auto;
